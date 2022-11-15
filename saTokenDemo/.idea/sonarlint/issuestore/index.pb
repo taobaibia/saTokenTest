@@ -17,7 +17,5 @@ n
 >src/main/java/com/yeweiyang/token/pojo/saToken/Permission.java,4/5/451ae4f952bf1892901eec6d3d132f12410c58c0
 r
 Bsrc/main/java/com/yeweiyang/token/pojo/ExaminationAppointment.java,7/d/7d20c44837aa100df4b0f63f5dafb3bbaa4858c6
-i
-9src/main/java/com/yeweiyang/token/Exception/AjaxJson.java,6/5/65b53472aeca0b8f7cc1bcc4a1066ed6c9a35868
 o
 ?src/main/java/com/yeweiyang/token/config/MySaTokenListener.java,f/1/f17a921b79657d06aeeaa06a2e8f8bb0ba37fc3a

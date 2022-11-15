@@ -40,6 +40,8 @@ spring:
 #        min-idle: 2
 mybatis-plus:
   mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    cache-enabled: true
 # Sa-Token配置
 sa-token:
   # token名称 (同时也是cookie名称)

@@ -10,7 +10,9 @@ import com.yeweiyang.token.Exception.CommonException;
 import com.yeweiyang.token.Exception.ExceptionUtils;
 import com.yeweiyang.token.config.EumeAndWeb.ResponseUtils;
 import com.yeweiyang.token.config.EumeAndWeb.ResponseWeb;
+import com.yeweiyang.token.mapper.RoleMapper;
 import com.yeweiyang.token.mapperDto.UserDtoToMapper;
+import com.yeweiyang.token.pojo.saToken.Role;
 import com.yeweiyang.token.pojo.saToken.User;
 import com.yeweiyang.token.request.CaseResultBackReq;
 import com.yeweiyang.token.response.UserResp;
@@ -173,6 +175,17 @@ public class UserController {
         System.out.println("--------------- 测试业务缓存");
         stringRedisTemplate.opsForValue().set("hello", "Hello World");
         return AjaxJson.getSuccess();
+    }
+
+    @Autowired
+    private RoleMapper roleMapper;
+    // 测试业务缓存
+    @GetMapping("/mybatis/cache")
+    @ApiOperation("二级缓存")
+    public Role mybatisCache(@RequestParam(value = "id")Long id) {
+        Role role = roleMapper.selectById(id);
+
+        return role;
     }
 
 }
