@@ -139,49 +139,5 @@ public class JayController {
         return jayService.deletePollExecutor(jay);
     }
 
-    public static void main(String[] args) throws Exception {
-        ArrayList<FengLin> list = new ArrayList<>();
-        FengLin fengLin = new FengLin();
-        fengLin.setId(1L);
-        fengLin.setName("张国荣");
-        fengLin.setCreateUser("admin");
-        fengLin.setDelFlag(Boolean.TRUE);
-        FengLin fengLin1 = new FengLin();
-        fengLin1.setId(2L);
-        fengLin1.setName("梁朝伟");
-        fengLin1.setCreateUser("system");
-        fengLin1.setDelFlag(Boolean.FALSE);
-        list.add(fengLin);
-        list.add(fengLin1);
-        /*========================================================================================*/
-        Jay jay = new Jay();
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-        String s = dateFormat.format(new Date());
-        jay.setName("刘德华");
-        jay.setId(1L);
-//        try {
-//            jay.setCreateTime(dateFormat.parse(s));
-//        } catch (ParseException e) {
-//        }
-        jay.setDelFlag(true);
-//        jay.setUpdateUser(s);
-//        jay.setFengLinList(list);
-        System.out.println(jay);
-        System.out.println("-----------------原------------------");
-        UserDtoMapper mapper = Mappers.getMapper(UserDtoMapper.class);
-        JayDto jayDto = mapper.jayToJayDto(jay);
-        System.out.println("jayToJayDto     " + jayDto);
-        System.out.println("----------------工厂--------------------");
-        JayDto jayDto1 = UserDtoMapper.INSTANCE.jayToJayDto(jay);
-        System.out.println(jayDto1);
-
-//        String format = DateFormatUtils.format(jay.getCreateTime(), "yyyy-MM-dd");
-//        Date parse = new SimpleDateFormat().parse(DateFormatUtils.format(jay.getCreateTime(), "yyyy-MM-dd"));
-//        String format = DateFormatUtils.format(jay.getCreateTime(), "yyyy-MM-dd");
-    }
-
-
-
-
 
 }

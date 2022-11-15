@@ -175,10 +175,4 @@ public class UserController {
         return AjaxJson.getSuccess();
     }
 
-    public static void main(String[] args) {
-        String data = "{\"caseInfo\":{\"auditResult\":\"4\",\"caseNumber\":\"2021122000002677\",\"remark\":\"1\"},\"claimInfo\":{\"bsPayAmt\":\"99\",\"bsPayDate\":\"20211221124816\",\"caseType\":\"2\",\"drugTotalAmt\":\"99\",\"medicalAmt\":\"99\",\"personPayAmt\":\"99\"},\"drugList\":[{\"drugAudit\":\"1\",\"drugAuditDesc\":\"通过\",\"drugBussName\":\"可瑞达\",\"drugCode\":\"1018\",\"drugFactory\":\"默沙东\",\"drugName\":\"帕博利珠单抗注射液\",\"drugPrice\":\"null\",\"drugSpec\":\"34\",\"quantity\":\"1.00\"}],\"receiveInfo\":{\"actualDeliveryDate\":\"20211221124816\",\"auditResult\":\"1\"}}";
-        CaseResultBackReq caseResultBackReq = JSON.parseObject(data, CaseResultBackReq.class);
-        System.out.println(caseResultBackReq);
-    }
-
 }

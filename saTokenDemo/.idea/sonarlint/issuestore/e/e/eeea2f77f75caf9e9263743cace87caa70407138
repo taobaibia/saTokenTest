@@ -1,16 +1,0 @@
-
-X	java:S125"<This block of commented-out lines of code should be removed.(ÜÛàê8ê£ª´0
-X	java:S125*"<This block of commented-out lines of code should be removed.(–—îø8ë£ª´0
-u
-java:S1602:"SRemove useless curly braces around statement and then remove useless return keyword(¨–Ö™ùÿÿÿÿ8ë£ª´0
-a
-java:S1128"?Remove this unused import 'cn.dev33.satoken.basic.SaBasicUtil'.(®ã±íúÿÿÿÿ8ì£ª´0
-f
-java:S1128"DRemove this unused import 'cn.dev33.satoken.filter.SaServletFilter'.(ŸÏ©Ğıÿÿÿÿ8ì£ª´0
-Z
-java:S1128"=Remove this unused import 'cn.dev33.satoken.router.SaRouter'.(øøŸê8ì£ª´0
-e
-java:S1128
-"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8ì£ª´0
-s
-java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ8˜È™‡½0

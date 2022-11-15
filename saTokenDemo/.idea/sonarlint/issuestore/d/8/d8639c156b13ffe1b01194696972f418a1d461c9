@@ -1,7 +1,0 @@
-
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‡øêõýÿÿÿÿ8óÚº‡½0
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ãæ©†8óÚº‡½0
-b	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(Ç×£ˆ8óÚº‡½0
-e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þ¶Ù
-m
-java:S1128"PRemove this unused import 'com.baomidou.mybatisplus.extension.service.IService'.(½ª¼Ð8õÚº‡½0
