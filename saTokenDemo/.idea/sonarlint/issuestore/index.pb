@@ -21,7 +21,3 @@ i
 9src/main/java/com/yeweiyang/token/Exception/AjaxJson.java,6/5/65b53472aeca0b8f7cc1bcc4a1066ed6c9a35868
 o
 ?src/main/java/com/yeweiyang/token/config/MySaTokenListener.java,f/1/f17a921b79657d06aeeaa06a2e8f8bb0ba37fc3a
-m
-=src/main/java/com/yeweiyang/token/SatokenDemoApplication.java,b/c/bc2932812ba9aeaa2f7e693aeedacd85419b235a
-g
-7src/main/java/com/yeweiyang/token/mapper/JayMapper.java,3/0/30bd3861554bc71d0afa1e89ef8db387abb42245

@@ -2,7 +2,6 @@ package com.yeweiyang.token.serivice;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.yeweiyang.token.pojo.copy.Jay;
-import icu.mhb.mybatisplus.plugln.base.service.JoinIService;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
@@ -11,7 +10,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-public interface JayService extends JoinIService<Jay> {
+public interface JayService extends IService<Jay> {
 
     List<Jay> findByName(String name);
 

@@ -256,6 +256,16 @@
             <groupId>com.alibaba.boot</groupId>
             <artifactId>nacos-config-spring-boot-starter</artifactId>
             <version>0.2.1</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>fastjson</artifactId>
+                    <groupId>com.alibaba</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>guava</artifactId>
+                    <groupId>com.google.guava</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.alibaba.boot</groupId>
@@ -263,11 +273,6 @@
             <version>0.2.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>icu.mhb</groupId>
-            <artifactId>mybatis-plus-join</artifactId>
-            <version>1.0.2</version>
-        </dependency>
 
 
     </dependencies>
