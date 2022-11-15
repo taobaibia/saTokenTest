@@ -21,7 +21,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * 在高版本 SpringBoot (≥2.6.x) 版本下，需要额外添加 @EnableWebMvc 注解才可以使注册拦截器生效。
  * 拦截器模式和AOP模式不可同时集成
  */
-@Configuration
+//@Configuration
 public class SaTokenConfigure implements WebMvcConfigurer {
     // 注册Sa-Token的注解拦截器，打开注解式鉴权功能
     @Override

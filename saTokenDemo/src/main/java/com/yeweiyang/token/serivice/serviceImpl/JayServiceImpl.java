@@ -15,8 +15,12 @@ import com.yeweiyang.token.mapper.JayTestPoiMapper;
 import com.yeweiyang.token.pojo.copy.Jay;
 import com.yeweiyang.token.pojo.JayTestPoi;
 import com.yeweiyang.token.pojo.excelPojo.JayExcel;
+import com.yeweiyang.token.pojo.saToken.User;
 import com.yeweiyang.token.serivice.JayService;
 import com.yeweiyang.token.utils.ExcelUtils;
+import icu.mhb.mybatisplus.plugln.base.service.impl.JoinServiceImpl;
+import icu.mhb.mybatisplus.plugln.core.JoinLambdaWrapper;
+import net.sf.jsqlparser.statement.select.Join;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -40,7 +44,7 @@ import java.util.stream.Collectors;
  * @author jay
  */
 @Service
-public class JayServiceImpl extends ServiceImpl<JayMapper, Jay> implements JayService {
+public class JayServiceImpl extends JoinServiceImpl<JayMapper, Jay> implements JayService {
 
     @Autowired
     private JayMapper jayMapper;
@@ -52,18 +56,24 @@ public class JayServiceImpl extends ServiceImpl<JayMapper, Jay> implements JaySe
     @Override
     public List<Jay> findByName(String name) {
         List<Long> longs = new ArrayList<>();
-        longs.add(2L);
-        longs.add(1L);
-        QueryWrapper<Jay> wrapper = new QueryWrapper<>();
-        wrapper.lambda().eq(Jay::getName, "Jay");
-        if (!CollectionUtils.isEmpty(longs)) {
-            wrapper.lambda().in(Jay::getId, longs);
-        }
-        HashSet<Scheduler.Worker> workers = new HashSet<>();
-        List<Jay> list = jayMapper.selectList(wrapper);
-        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(4, 10,
-                24000L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>());
+//        longs.add(2L);
+//        longs.add(1L);
+//        QueryWrapper<Jay> wrapper = new QueryWrapper<>();
+//        wrapper.lambda().eq(Jay::getName, "Jay");
+//        if (!CollectionUtils.isEmpty(longs)) {
+//            wrapper.lambda().in(Jay::getId, longs);
+//        }
+//        HashSet<Scheduler.Worker> workers = new HashSet<>();
+//        List<Jay> list = jayMapper.selectList(wrapper);
+//        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(4, 10,
+//                24000L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>());
+        JoinLambdaWrapper joinLambdaWrapper = new JoinLambdaWrapper<>(Jay.class)
+                .eq(Jay::getId,1)
+                .leftJoin(User.class,User::getUserId,Jay::getId)
 
+                .end();
+
+        List<Jay> list = jayMapper.joinSelectList(joinLambdaWrapper);
         return list;
     }
 

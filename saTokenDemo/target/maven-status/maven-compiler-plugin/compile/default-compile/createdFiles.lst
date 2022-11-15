@@ -21,7 +21,6 @@ com/yeweiyang/token/pojo/saToken/Permission.class
 com/yeweiyang/token/utils/PageVo.class
 com/yeweiyang/token/pojo/copy/FengLinDto.class
 com/yeweiyang/token/job/XxlJobConfig.class
-com/yeweiyang/token/mapperDto/UserDtoToMapperImpl.class
 com/yeweiyang/token/request/CaseInfo.class
 com/yeweiyang/token/Exception/CommonException.class
 com/yeweiyang/token/pojo/copy/FengLin.class
@@ -41,7 +40,6 @@ com/yeweiyang/token/job/ScheduledTestJob.class
 com/yeweiyang/token/mapper/ExaminationAppointmentMapper.class
 com/yeweiyang/token/mapper/JayMapper.class
 com/yeweiyang/token/pojo/saToken/UsersRoles.class
-com/yeweiyang/token/mapper/UserDtoMapperImpl.class
 com/yeweiyang/token/request/CaseReq.class
 com/yeweiyang/token/pojo/saToken/User.class
 com/yeweiyang/token/serivice/ExaminationAppointmentService.class

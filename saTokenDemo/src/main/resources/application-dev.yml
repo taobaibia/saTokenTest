@@ -125,3 +125,4 @@ test.jay.public_key: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDvsJrdNacJvZRzHauwPIJ
 
 
 
+mybatis-plus.configuration.log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

@@ -26,6 +26,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -42,8 +43,8 @@ public class UserController {
 
     @Autowired
     private UserService userService;
-    @Autowired
-    private UserDtoToMapper userDtoToMapper;
+//    @Autowired
+//    private UserDtoToMapper userDtoToMapper;
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
@@ -119,8 +120,8 @@ public class UserController {
 //    @SaCheckBasic(account = "sa:123456")    //Http Basic 认证：只有通过 Basic 认证后才能进入该方法
     public ResponseWeb<List<UserResp>> doSelectAccount() {
         List<User> user = userService.doSelectAccount();
-        List<UserResp> respList = userDtoToMapper.userToUserResp(user);
-        return ResponseUtils.success(respList);
+//        List<UserResp> respList = userDtoToMapper.userToUserResp(user);
+        return ResponseUtils.success(new ArrayList<>());
     }
 
     @SaCheckSafe
@@ -128,8 +129,8 @@ public class UserController {
     @ApiOperation("二级登录校验")
     public ResponseWeb<List<UserResp>> doSelectAccountTwo() {
         List<User> user = userService.doSelectAccount();
-        List<UserResp> respList = userDtoToMapper.userToUserResp(user);
-        return ResponseUtils.success(respList);
+//        List<UserResp> respList = userDtoToMapper.userToUserResp(user);
+        return ResponseUtils.success(new ArrayList<>());
     }
 
     @GetMapping("/openSafe")

@@ -41,7 +41,7 @@ public class JayController {
 
     @GetMapping("/v1/select")
     @ApiOperation("test查看")
-    @SaCheckSafe
+//    @SaCheckSafe
     public List<Jay> select() throws Exception {
         String name = "";
         List<Jay> list = jayService.findByName(name);

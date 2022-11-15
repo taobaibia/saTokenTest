@@ -3,6 +3,7 @@
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/config/MySaTokenListener.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/Exception/GlobalException.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/request/DrugList.java
+/Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/DiscoveryController.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/serivice/serviceImpl/StpInterfaceImpl.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/config/EumeAndWeb/ResponseUtils.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/Enums/JayEnum.java

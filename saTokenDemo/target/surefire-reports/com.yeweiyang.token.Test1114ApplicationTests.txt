@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.yeweiyang.token.Test1114ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.607 s <<< FAILURE! - in com.yeweiyang.token.Test1114ApplicationTests
+get  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.yeweiyang.token.serivice.serviceImpl.JayServiceImpl] from ClassLoader [sun.misc.Launcher$AppClassLoader@3d4eac69]
+Caused by: java.lang.VerifyError: class icu.mhb.mybatisplus.plugln.core.support.SupportJoinLambdaWrapper overrides final method initNeed.()V
+
+set  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.yeweiyang.token.serivice.serviceImpl.JayServiceImpl] from ClassLoader [sun.misc.Launcher$AppClassLoader@3d4eac69]
+Caused by: java.lang.VerifyError: class icu.mhb.mybatisplus.plugln.core.support.SupportJoinLambdaWrapper overrides final method initNeed.()V
+
+contextLoads  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.yeweiyang.token.serivice.serviceImpl.JayServiceImpl] from ClassLoader [sun.misc.Launcher$AppClassLoader@3d4eac69]
+Caused by: java.lang.VerifyError: class icu.mhb.mybatisplus.plugln.core.support.SupportJoinLambdaWrapper overrides final method initNeed.()V
+
