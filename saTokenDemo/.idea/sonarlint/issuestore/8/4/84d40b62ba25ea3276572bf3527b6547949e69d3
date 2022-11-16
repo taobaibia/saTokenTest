@@ -1,0 +1,50 @@
+
+b	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(¨É“Œ8ŸºÖ†½0
+g	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(ô¸Êšúÿÿÿÿ8ŸºÖ†½0
+g	java:S112C"FDefine and throw a dedicated exception instead of using a generic one.(Æè«¸ÿÿÿÿÿ8ŸºÖ†½0
+g	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(Áç³¯þÿÿÿÿ8 ºÖ†½0
+L
+java:S3740`"/Provide the parametrized type for this generic.(‡­“î8 ºÖ†½0
+Q
+java:S3740c"/Provide the parametrized type for this generic.(ŒƒÉíüÿÿÿÿ8 ºÖ†½0
+y
+java:S1488/"\Immediately return this expression instead of assigning it to the temporary variable "list".(é´Ö£8 ºÖ†½0
+
+java:S1488Z"]Immediately return this expression instead of assigning it to the temporary variable "byMap".(²¯èÒûÿÿÿÿ8¡ºÖ†½0
+e
+java:S1226D"HIntroduce a new variable instead of reusing the parameter "phoneNumber".(ÐÐÉ„8¢ºÖ†½0
+‰
+java:S1130-"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¨É“Œ8©ºÖ†½0
+]	java:S125&"<This block of commented-out lines of code should be removed.(ØË³¬ýÿÿÿÿ8ªºÖ†½0
+Ž
+java:S1130C"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Æè«¸ÿÿÿÿÿ8ªºÖ†½0
+Y
+java:S1854S"7Remove this useless assignment to local variable "jay".(Ùåš•ýÿÿÿÿ8«ºÖ†½0
+Ž
+java:S1130R"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Áç³¯þÿÿÿÿ8«ºÖ†½0
+J
+java:S1481S"(Remove this unused "jay" local variable.(Ùåš•ýÿÿÿÿ8«ºÖ†½0
+X	java:S125T"<This block of commented-out lines of code should be removed.(íÁ8«ºÖ†½0
+]	java:S125b"<This block of commented-out lines of code should be removed.(“ïé—úÿÿÿÿ8«ºÖ†½0
+K
+java:S1481c")Remove this unused "list" local variable.(ŒƒÉíüÿÿÿÿ8«ºÖ†½0
+X	java:S125i"<This block of commented-out lines of code should be removed.(ÂÄÀ»8­ºÖ†½0
+]	java:S125q"<This block of commented-out lines of code should be removed.(àÚ¡ÿÿÿÿÿ8®ºÖ†½0
+V	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(û˜Šª8°ºÖ†½0
+a
+java:S1128"DRemove this unused import 'cn.dev33.satoken.annotation.SaCheckSafe'.(½»°Ò8äž‡½0
+g
+java:S1128"ERemove this unused import 'com.yeweiyang.token.mapper.UserDtoMapper'.(½ªÀ‰ùÿÿÿÿ8óãƒÒÇ0
+_
+java:S1128"BRemove this unused import 'com.yeweiyang.token.pojo.copy.FengLin'.(†ô”¬8óãƒÒÇ0
+^
+java:S1128
+"ARemove this unused import 'com.yeweiyang.token.pojo.copy.JayDto'.(»‚¶Ø8óãƒÒÇ0
+\
+java:S1128":Remove this unused import 'org.mapstruct.factory.Mappers'.(Ôä¸ûÿÿÿÿ8óãƒÒÇ0
+T
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8óãƒÒÇ0
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8óãƒÒÇ0
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8óãƒÒÇ0

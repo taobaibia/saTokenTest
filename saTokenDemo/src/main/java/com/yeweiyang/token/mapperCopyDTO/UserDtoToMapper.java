@@ -1,15 +1,9 @@
-package com.yeweiyang.token.mapperDto;
+package com.yeweiyang.token.mapperCopyDTO;
 
 
-import com.yeweiyang.token.pojo.saToken.User;
-import com.yeweiyang.token.response.UserResp;
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mappings;
 import org.mapstruct.ReportingPolicy;
-import org.mapstruct.factory.Mappers;
-
-import java.util.List;
 
 /**
  * @author Jay

@@ -1,0 +1,23 @@
+
+D
+java:S3740("/Provide the parametrized type for this generic.(â§ºR
+J
+java:S3740J"/Provide the parametrized type for this generic.(å•ŠÅøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™¾¤±úÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(§™Ëòÿÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(“äóîÿÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(Ûûõúÿÿÿÿ
+A
+java:S1168,"+Return an empty collection instead of null.(¥¹ï
+V	java:S1250"<This block of commented-out lines of code should be removed.(Ñ³©“úÿÿÿÿ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(œ™ïÓ
+B
+java:S1602^",Remove useless curly braces around statement(ˆ°„³
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(ÓÌÙ
+V	java:S125`"<This block of commented-out lines of code should be removed.(á¦ÔÅùÿÿÿÿ
+^
+java:S1128"CRemove this unused import 'cn.hutool.core.thread.ThreadUtil.sleep'.(ĞËØ©ùÿÿÿÿ
+T
+java:S1144I">Remove this unused private "createScheduledThreadPool" method.(Üı­Ä
+P
+java:S1144Y"5Remove this unused private "createThreadPool" method.(ŒÃì­üÿÿÿÿ

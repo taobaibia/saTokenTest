@@ -1,0 +1,60 @@
+
+t
+java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(Á…ñ‰üÿÿÿÿ
+u
+java:S2293Ú"YReplace the type specification in this constructor call with the diamond operator ("<>").(™ºöºýÿÿÿÿ
+p
+java:S2293â"YReplace the type specification in this constructor call with the diamond operator ("<>").(û¥ìæ
+p
+java:S2293ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ð®ñÚ
+u
+java:S2293‘"YReplace the type specification in this constructor call with the diamond operator ("<>").(òõÿÖþÿÿÿÿ
+|
+java:S2293é"YReplace the type specification in this constructor call with the diamond operator ("<>").(Á…ñ‰üÿÿÿÿ8Ó¨®ÒÇ0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™¾¤±úÿÿÿÿ
+c
+java:S1854A"FRemove this useless assignment to local variable "threadPoolExecutor".(‹ˆ¤²8ì¨®ÒÇ0
+]
+java:S1854?";Remove this useless assignment to local variable "workers".(ÒÈ‘èýÿÿÿÿ8í¨®ÒÇ0
+Q	java:S1253"<This block of commented-out lines of code should be removed.(Á‡•¤
+N
+java:S1481?",Remove this unused "workers" local variable.(ÒÈ‘èýÿÿÿÿ8î¨®ÒÇ0
+T
+java:S1481A"7Remove this unused "threadPoolExecutor" local variable.(‹ˆ¤²8ï¨®ÒÇ0
+Y
+java:S1854È"=Remove this useless assignment to local variable "workbooks".(Ë›¶üüÿÿÿÿ
+N
+java:S1854Â"7Remove this useless assignment to local variable "jay".(ŸËì£
+V	java:S125U"<This block of commented-out lines of code should be removed.(ï³Ôñþÿÿÿÿ
+H
+java:S1135Œ"2Complete the task associated to this TODO comment.(Š»ýu
+R	java:S125©"<This block of commented-out lines of code should be removed.(À×£¬
+?
+java:S1481Â"(Remove this unused "jay" local variable.(ŸËì£
+J
+java:S1481È".Remove this unused "workbooks" local variable.(Ë›¶üüÿÿÿÿ
+R	java:S125×"<This block of commented-out lines of code should be removed.(ŽÈðÉ
+]
+java:S1075ó"ARefactor your code to get this URI from a customizable parameter.(‰¾Ï½øÿÿÿÿ
+W	java:S125ø"<This block of commented-out lines of code should be removed.(ñßä¡øÿÿÿÿ
+R	java:S125ý"<This block of commented-out lines of code should be removed.(„ºòÊ
+P
+java:S1854§"9Remove this useless assignment to local variable "value".(—¾Þô
+W	java:S125’"<This block of commented-out lines of code should be removed.(å¦Ÿûüÿÿÿÿ
+T	java:S106«"9Replace this use of System.out or System.err by a logger.(‚é€Þûÿÿÿÿ
+O	java:S106­"9Replace this use of System.out or System.err by a logger.(¥²˜Å
+W	java:S125±"<This block of commented-out lines of code should be removed.(Øí™¡ýÿÿÿÿ
+T	java:S106Ü"9Replace this use of System.out or System.err by a logger.(“þÑ«øÿÿÿÿ
+W	java:S125ß"<This block of commented-out lines of code should be removed.(´àÜúÿÿÿÿ
+Q	java:S125ô"<This block of commented-out lines of code should be removed.(Ü¡ýI
+Q
+java:S1854ÿ":Remove this useless assignment to local variable "delete".(…ì‚
+B
+java:S1481ÿ"+Remove this unused "delete" local variable.(…ì‚
+W	java:S125…"<This block of commented-out lines of code should be removed.(«ÓÌ…ûÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+T	java:S106£"9Replace this use of System.out or System.err by a logger.(ëÊÐüÿÿÿÿÿ
+d
+java:S1128"BRemove this unused import 'com.yeweiyang.token.pojo.saToken.User'.(ÚÓº³ýÿÿÿÿ8ÿ¯±ÒÇ0
+E
+java:S1144«")Remove this unused private "ppad" method.(€ïÎ™úÿÿÿÿ
