@@ -17,6 +17,11 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="aliyun" />
+      <option name="name" value="aliyun" />
+      <option name="url" value="http://maven.meditrusthealth.com/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="nexus-snapshots" />
       <option name="name" value="nexus-snapshots" />
       <option name="url" value="http://maven.meditrusthealth.com/repository/maven-public/" />

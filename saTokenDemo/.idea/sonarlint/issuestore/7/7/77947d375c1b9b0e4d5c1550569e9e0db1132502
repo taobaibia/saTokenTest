@@ -1,0 +1,29 @@
+
+`	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+J
+java:S3740%"/Provide the parametrized type for this generic.(“õÜÄıÿÿÿÿ
+E
+java:S37405"/Provide the parametrized type for this generic.(½Ğ ±
+L
+java:S26966"6Make the enclosing method "static" or remove this set.(øŒï£
+Q
+java:S2696D"6Make the enclosing method "static" or remove this set.(¨áŠÖøÿÿÿÿ
+`
+java:S1858G"E"id" is already a string, there's no need to call "toString()" on it.(©¯ÔÓıÿÿÿÿ
+Q
+java:S2696Q"6Make the enclosing method "static" or remove this set.(¨áŠÖøÿÿÿÿ
+[
+java:S1858S"E"id" is already a string, there's no need to call "toString()" on it.(¼ÿŠÛ
+Q
+java:S2696`"6Make the enclosing method "static" or remove this set.(¨áŠÖøÿÿÿÿ
+`
+java:S1858b"E"id" is already a string, there's no need to call "toString()" on it.(Ò®˜éúÿÿÿÿ
+Q
+java:S2696n"6Make the enclosing method "static" or remove this set.(¨áŠÖøÿÿÿÿ
+Z
+java:S1858p"E"id" is already a string, there's no need to call "toString()" on it.(†Ÿİ$
+Q
+java:S2696{"6Make the enclosing method "static" or remove this set.(¨áŠÖøÿÿÿÿ
+[
+java:S1858}"E"id" is already a string, there's no need to call "toString()" on it.(êš›

@@ -3,6 +3,8 @@ package com.yeweiyang.token.controller;
 import cn.dev33.satoken.annotation.*;
 import cn.dev33.satoken.stp.StpUtil;
 import cn.dev33.satoken.util.SaResult;
+//import com.plexpt.chatgpt.ChatGPT;
+//import com.plexpt.chatgpt.util.Proxys;
 import com.yeweiyang.token.Enums.JayEnum;
 import com.yeweiyang.token.Exception.AjaxJson;
 import com.yeweiyang.token.Exception.CommonException;
@@ -25,6 +27,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.net.Proxy;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -184,5 +187,25 @@ public class UserController {
 
         return role;
     }
+/*
+    @GetMapping("/chat/gpt")
+    @ApiOperation("chatGpt")
+    public String ChatGpt(@RequestParam(value = "String")String pams) {
+        //国内需要代理
+        Proxy proxy = Proxys.http("127.0.0.1", 7890);
+        //socks5 代理
+        // Proxy proxy = Proxys.socks5("127.0.0.1", 1080);
+
+        ChatGPT chatGPT = ChatGPT.builder()
+                .apiKey("")
+                .proxy(proxy)
+                .apiHost("https://api.openai.com/") //反向代理地址
+                .build()
+                .init();
+
+        String res = chatGPT.chat(pams);
+
+        return res;
+    }*/
 
 }

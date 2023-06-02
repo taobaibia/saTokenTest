@@ -3,7 +3,6 @@
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/config/MySaTokenListener.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/Exception/GlobalException.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/request/DrugList.java
-/Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/DiscoveryController.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/serivice/serviceImpl/StpInterfaceImpl.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/config/EumeAndWeb/ResponseUtils.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/Enums/JayEnum.java
@@ -15,8 +14,10 @@
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/mapper/UsersRolesMapper.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/utils/RedisUtils.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/controller/SaTokenController.java
+/Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/config/RedisConfig.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/utils/StpUserUtil.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/pojo/excelPojo/DynamicTablePo.java
+/Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/config/RedisCache.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/mapper/JayMapper.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/utils/ExcelUtils.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/pojo/copy/FengLin.java
@@ -31,6 +32,7 @@
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/serivice/UserService.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/pojo/saToken/Role.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/utils/SaTokenPasswordUtils.java
+/Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/mapperCopyDTO/UserDtoToMapper.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/pojo/copy/Jay.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/mapper/PermissionMapper.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/request/ClaimInfo.java
@@ -56,7 +58,6 @@
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/request/CaseInfo.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/pojo/JayTestPoi.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/utils/PageData.java
-/Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/mapperDto/UserDtoToMapper.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/config/EumeAndWeb/CommonCodeEnum.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/request/CaseResultBackReq.java
 /Users/jay/Desktop/Java/GitHubProject/saTokenTest/saTokenDemo/src/main/java/com/yeweiyang/token/serivice/serviceImpl/PoiExcel.java
