@@ -77,7 +77,7 @@ public class JayServiceImpl extends ServiceImpl<JayMapper, Jay> implements JaySe
     public String sendMessage(Long phoneNumber) {
 //        cacheManager.
 
-        return null;
+        return "lalal";
     }
 
     /*导出esayPoi*/

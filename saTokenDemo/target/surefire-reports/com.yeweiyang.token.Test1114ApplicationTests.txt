@@ -1,14 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.yeweiyang.token.Test1114ApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.035 s <<< FAILURE! - in com.yeweiyang.token.Test1114ApplicationTests
-get  Time elapsed: 0.302 s  <<< ERROR!
-org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
-	at com.yeweiyang.token.Test1114ApplicationTests.get(Test1114ApplicationTests.java:29)
-Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
-	at com.yeweiyang.token.Test1114ApplicationTests.get(Test1114ApplicationTests.java:29)
-Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
-	at com.yeweiyang.token.Test1114ApplicationTests.get(Test1114ApplicationTests.java:29)
-Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:6379
-Caused by: java.net.ConnectException: Connection refused
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.291 s <<< FAILURE! - in com.yeweiyang.token.Test1114ApplicationTests
+contextLoads  Time elapsed: 0.085 s  <<< ERROR!
+com.alibaba.fastjson.JSONException: illegal identifier : \pos 1, line 1, column 2{\"caseInfo\":{\"auditResult\":\"4\",\"caseNumber\":\"2021122000002677\",\"remark\":\"1\"},\"claimInfo\":{\"bsPayAmt\":\"99\",\"bsPayDate\":\"20211221124816\",\"caseType\":\"2\",\"drugTotalAmt\":\"99\",\"medicalAmt\":\"99\",\"personPayAmt\":\"99\"},\"drugList\":[{\"drugAudit\":\"1\",\"drugAuditDesc\":\"通过\",\"drugBussName\":\"可瑞达\",\"drugCode\":\"1018\",\"drugFactory\":\"默沙东\",\"drugName\":\"帕博利珠单抗注射液\",\"drugPrice\":\"null\",\"drugSpec\":\"34\",\"quantity\":\"1.00\"}],\"receiveInfo\":{\"actualDeliveryDate\":\"20211221124816\",\"auditResult\":\"1\"}}
+	at com.yeweiyang.token.Test1114ApplicationTests.contextLoads(Test1114ApplicationTests.java:35)
 

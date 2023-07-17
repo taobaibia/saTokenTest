@@ -1,0 +1,24 @@
+
+z
+java:S1488º"\Immediately return this expression instead of assigning it to the temporary variable "role".(Ã‡Óî8ŠÖæž‹1
+X	java:S125"<This block of commented-out lines of code should be removed.(ÌÑ¶®8”Öæž‹1
+ƒ
+java:S4144„"`Update this method so that its implementation is not identical to "doSelectAccount" on line 123.(ø™À¦üÿÿÿÿ8”Öæž‹1
+X	java:S1251"<This block of commented-out lines of code should be removed.(…™¯Ô8•Öæž‹1
+Z
+java:S1854|"8Remove this useless assignment to local variable "user".(øÔŠêÿÿÿÿÿ8—Öæž‹1
+K
+java:S1481|")Remove this unused "user" local variable.(øÔŠêÿÿÿÿÿ8—Öæž‹1
+X	java:S125}"<This block of commented-out lines of code should be removed.(º€ý8—Öæž‹1
+[
+java:S1854…"8Remove this useless assignment to local variable "user".(øÔŠêÿÿÿÿÿ8˜Öæž‹1
+L
+java:S1481…")Remove this unused "user" local variable.(øÔŠêÿÿÿÿÿ8˜Öæž‹1
+Y	java:S125†"<This block of commented-out lines of code should be removed.(º€ý8˜Öæž‹1
+V	java:S106™"9Replace this use of System.out or System.err by a logger.(æ½ß¹8˜Öæž‹1
+V	java:S106›"9Replace this use of System.out or System.err by a logger.(ñšÔ8™Öæž‹1
+V	java:S106¦"9Replace this use of System.out or System.err by a logger.(²ôá£8™Öæž‹1
+V	java:S106¯"9Replace this use of System.out or System.err by a logger.(Êï‚ï8™Öæž‹1
+^	java:S125Á"<This block of commented-out lines of code should be removed.(°Æ¥÷üÿÿÿÿ8›Öæž‹1
+M
+java:S1128"+Remove this unused import 'java.net.Proxy'.(ìƒµïûÿÿÿÿ8›Öæž‹1
