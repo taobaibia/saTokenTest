@@ -25,6 +25,7 @@ import java.util.Locale;
  * @version V1.0
  * @Package com.yeweiyang.es
  * @date 2023/7/18 13:47
+ * 普通crud
  */
 @Disabled
 @SpringBootTest(classes = SatokenDemoApplication.class)
