@@ -43,7 +43,7 @@ public class EsTestJoinQuery {
     @Test
     public void testCreateIndex() {
 
-        Assertions.assertTrue();
+        Assertions.assertTrue(Boolean.TRUE);
     }
 
     @Test

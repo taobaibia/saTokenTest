@@ -317,6 +317,13 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.glassfish/javax.annotation -->
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.annotation</artifactId>
+            <version>3.2-b01</version>
+        </dependency>
+
 
 
     </dependencies>
