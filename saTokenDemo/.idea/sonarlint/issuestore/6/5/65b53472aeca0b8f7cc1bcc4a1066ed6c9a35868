@@ -1,7 +1,6 @@
 
 \
 java:S1192\"FDefine a constant instead of duplicating this literal "error" 3 times.(†Þî©
-l	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÑžÖúÿÿÿÿ
 f
 java:S1104"PMake code a static final constant or non-public and provide accessors if needed.(æ×Þß
 e

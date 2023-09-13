@@ -1,50 +1,33 @@
 
-b	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(¨É“Œ8›Õæž‹1
-g	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(ô¸Êšúÿÿÿÿ8œÕæž‹1
-g	java:S112C"FDefine and throw a dedicated exception instead of using a generic one.(Æè«¸ÿÿÿÿÿ8œÕæž‹1
-g	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(Áç³¯þÿÿÿÿ8Ù¢çž‹1
-L
-java:S3740`"/Provide the parametrized type for this generic.(‡­“î8Õæž‹1
-Q
-java:S3740c"/Provide the parametrized type for this generic.(ŒƒÉíüÿÿÿÿ8Õæž‹1
-y
-java:S1488/"\Immediately return this expression instead of assigning it to the temporary variable "list".(é´Ö£8Õæž‹1
-
-java:S1488Z"]Immediately return this expression instead of assigning it to the temporary variable "byMap".(²¯èÒûÿÿÿÿ8Õæž‹1
-e
-java:S1226D"HIntroduce a new variable instead of reusing the parameter "phoneNumber".(ÐÐÉ„8Û¢çž‹1
-‰
-java:S1130-"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¨É“Œ8ªÕæž‹1
-]	java:S125&"<This block of commented-out lines of code should be removed.(ØË³¬ýÿÿÿÿ8ªÕæž‹1
-Ž
-java:S1130C"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Æè«¸ÿÿÿÿÿ8¬Õæž‹1
-Y
-java:S1854S"7Remove this useless assignment to local variable "jay".(Ùåš•ýÿÿÿÿ8¬Õæž‹1
-Ž
-java:S1130R"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Áç³¯þÿÿÿÿ8å¢çž‹1
+[	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(¨É“Œ
+`	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(ô¸Êšúÿÿÿÿ
+`	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(Æè«¸ÿÿÿÿÿ
+`	java:S112J"FDefine and throw a dedicated exception instead of using a generic one.(Áç³¯þÿÿÿÿ
+E
+java:S3740X"/Provide the parametrized type for this generic.(‡­“î
 J
-java:S1481S"(Remove this unused "jay" local variable.(Ùåš•ýÿÿÿÿ8¬Õæž‹1
-X	java:S125T"<This block of commented-out lines of code should be removed.(íÁ8¬Õæž‹1
-]	java:S125b"<This block of commented-out lines of code should be removed.(“ïé—úÿÿÿÿ8¬Õæž‹1
-K
-java:S1481c")Remove this unused "list" local variable.(ŒƒÉíüÿÿÿÿ8¬Õæž‹1
-X	java:S125i"<This block of commented-out lines of code should be removed.(ÂÄÀ»8–¹íž‹1
-]	java:S125q"<This block of commented-out lines of code should be removed.(àÚ¡ÿÿÿÿÿ8¯Õæž‹1
-V	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(û˜Šª8¯Õæž‹1
-a
-java:S1128"DRemove this unused import 'cn.dev33.satoken.annotation.SaCheckSafe'.(½»°Ò8é¢çž‹1
-g
-java:S1128"ERemove this unused import 'com.yeweiyang.token.mapper.UserDtoMapper'.(½ªÀ‰ùÿÿÿÿ8é¢çž‹1
-_
-java:S1128"BRemove this unused import 'com.yeweiyang.token.pojo.copy.FengLin'.(†ô”¬8é¢çž‹1
+java:S3740["/Provide the parametrized type for this generic.(ŒƒÉíüÿÿÿÿ
+r
+java:S1488'"\Immediately return this expression instead of assigning it to the temporary variable "list".(é´Ö£
+x
+java:S1488R"]Immediately return this expression instead of assigning it to the temporary variable "byMap".(²¯èÒûÿÿÿÿ
 ^
-java:S1128
-"ARemove this unused import 'com.yeweiyang.token.pojo.copy.JayDto'.(»‚¶Ø8é¢çž‹1
-\
-java:S1128":Remove this unused import 'org.mapstruct.factory.Mappers'.(Ôä¸ûÿÿÿÿ8é¢çž‹1
-T
-java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8é¢çž‹1
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8é¢çž‹1
-H
-java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8é¢çž‹1
+java:S1226<"HIntroduce a new variable instead of reusing the parameter "phoneNumber".(ÐÐÉ„
+‚
+java:S1130%"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¨É“Œ
+V	java:S125"<This block of commented-out lines of code should be removed.(ØË³¬ýÿÿÿÿ
+‡
+java:S1130;"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Æè«¸ÿÿÿÿÿ
+R
+java:S1854K"7Remove this useless assignment to local variable "jay".(Ùåš•ýÿÿÿÿ
+‡
+java:S1130J"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Áç³¯þÿÿÿÿ
+C
+java:S1481K"(Remove this unused "jay" local variable.(Ùåš•ýÿÿÿÿ
+Q	java:S125L"<This block of commented-out lines of code should be removed.(íÁ
+V	java:S125Z"<This block of commented-out lines of code should be removed.(“ïé—úÿÿÿÿ
+D
+java:S1481[")Remove this unused "list" local variable.(ŒƒÉíüÿÿÿÿ
+Q	java:S125a"<This block of commented-out lines of code should be removed.(ÂÄÀ»
+V	java:S125i"<This block of commented-out lines of code should be removed.(àÚ¡ÿÿÿÿÿ
+N	java:S106{"9Replace this use of System.out or System.err by a logger.(û˜Šª
